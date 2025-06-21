@@ -1,3 +1,4 @@
+# Custom exception class
 divisor = int(input("Enter a number: "))
 dividend = 20
 
