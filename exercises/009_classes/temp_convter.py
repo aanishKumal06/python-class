@@ -1,20 +1,18 @@
 class Temp_Convter:
-    def __int__(self):
-        pass
 
     def c_to_f(self):
         try:
-            temp = int(input("Input the temp in Fahrenheit (°F): "))
-            c = (temp - 32) * 5 / 9
-            print(f"{temp}°F Fahrenheit is equal to {c}°C Celsius. ")
+            temp = int(input("Input the temp in Celsius (°C): "))
+            f = (temp * 9 / 5) + 32
+            print(f"{temp}°C Celsius is equal to {f}°F Fahrenheit. ")
         except ValueError:
             print("Invalid input")
 
     def f_to_c(self):
         try:
-            temp = int(input("Input the temp in Celsius (°C): "))
-            f = (temp * 9 / 5) + 32
-            print(f"{temp}°C Celsius is equal to {f}°F Fahrenheit. ")
+            temp = int(input("Input the temp in Fahrenheit (°F): "))
+            c = (temp - 32) * 5 / 9
+            print(f"{temp}°F Fahrenheit is equal to {c}°C Celsius. ")
         except ValueError:
             print("Invalid input")
 
