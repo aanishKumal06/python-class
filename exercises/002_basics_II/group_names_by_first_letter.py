@@ -1,5 +1,5 @@
-"""Write a Python program that takes a list of Nepali comedy character names (written in English letters) 
-and groups them in a dictionary based on the first letter of each name. """
+"""Write a Python program that takes a list of Nepali comedy character names
+(written in English letters) and groups them in a dictionary based on the first letter of each name."""
 
 names = [
     "Mundre", "Magne Buda", "Jire Khursani", "Mundre Junior", "Gaida", "Magne",

@@ -1,5 +1,6 @@
 """
-Write a Python program that takes a list of words and groups them based on their length. The program should create a dictionary where:
+Write a Python program that takes a list of words and groups them based on their length. The program should create a
+dictionary where:
 •	The keys are the lengths of the words (as numbers),
 •	The values are lists of words having that length.
 Finally, print the dictionary.
