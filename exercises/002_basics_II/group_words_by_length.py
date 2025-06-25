@@ -22,7 +22,7 @@ grouped = {}
 
 for word in words:
     length = len(word)
-    if length not in grouped:
+    if length not in grouped:  # Memberchip Check
         grouped[length] = []
     else:
         grouped[length].append(word)
