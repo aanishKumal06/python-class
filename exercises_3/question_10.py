@@ -22,3 +22,12 @@ def sort_by_age(people):
 
 print(sort_by_age([("Alice", 30), ("Bob", 25), ("Charlie", 35), ("Ram", 12), ("Sita", 1212)]))
 print(sort_by_age([("Eve", 28), ("Dave", 40)]))
+
+
+# sorted
+def sort_age(info: list[tuple[str, int]]) -> list[tuple[str, int]]:
+    age_sorted = sorted(info, key=lambda item: item[1])
+    return age_sorted
+
+
+print(sort_age([("Alice", 30), ("Bob", 25), ("Charlie", 35), ("Ram", 12), ("Sita", 1212)]))
