@@ -25,3 +25,13 @@ def print_odd_pattern(n):
 
 
 print_odd_pattern(5)
+
+
+def print_odd_pattern_for_loop_only(num):
+    for row in range(1, num + 1):
+        for column in range(1, row * 2, 2):
+            print(column, end=" ")
+        print()
+
+
+print_odd_pattern_for_loop_only(10)
