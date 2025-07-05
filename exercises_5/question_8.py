@@ -22,9 +22,9 @@ of each row’s star sequence. Manage spaces carefully.
 def hollow_diamond(rows):
     for i in range(1, rows + 1):
         if i == 1:
-            spaces = ' ' * (rows - i)
+            leading_spaces = ' ' * (rows - i)
             stars = '*' * (i * 2 - 1)
-            print(spaces + stars)
+            print(leading_spaces + stars)
         else:
             spaces = ' ' * (rows - i)
             spaces_gap_between_stars = (i * 2 - 3)
